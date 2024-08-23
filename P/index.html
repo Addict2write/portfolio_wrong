@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rasel's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">Md Rasel Saikat Ul Hoque</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Md <span class="blue">Rasel</span> Saikat Ul Hoque</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="section__pic-container">
+            <img src="photo_6084544894409490610_y.jpg" alt="Rasel Pro pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Rasel</h1>
+            <p class="section__text__p2"><span id="element">Frontend Developer</span></p>
+
+            <div class="btn-container">
+
+                <button class="btn btn-color-1" onclick="location.href='mailto:mdsaikat795@gmail.com' ">Hire ME</button>
+                <button class="btn btn-color-2"
+                    onclick="window.open('//drive.google.com/file/d/10ZAKUM0kJxHWhSAG7VCTlFC-_lMpntSl/view?usp=drive_link')">Download
+                    CV</button>
+
+            </div>
+            <div id="section-container">
+                <img src="linkdin.png.png" alt="My linkdin" class="icon"
+                    onclick="location.href='//www.linkedin.com/in/md-rasel-saikat-ul-hoque/' ">
+                <img src="github.png" alt="My github" class="icon" onclick="location.href='//github.com/Addict2write' ">
+            </div>
+        </div>
+        <img src="./Malpottor/down_arrow.png" alt="down_arrow" class="icon arrow" onclick="location.href='./#about' " />
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Malpottor/Pi7_Passport_Photo.jpeg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Malpottor/experience.png" alt="experience icon" class="icon" />
+                        <h3>B.Tech Fresher</h3>
+                        <p>'24 passout <br>Frontend Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Malpottor/education.png" alt="education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Tech (CSE)<br>Netaji Subhash Engineering College</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Passionate computer science student with a penchant for turning caffeine into
+                        code and transforming complex algorithms into elegant solutions that redefine
+                        possibilities.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./Malpottor/down_arrow.png" alt="down_arrow" class="icon arrow"
+            onclick="location.href='./#skills' " />
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Malpottor/mongodb_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/react_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>ReactJS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/nodejs_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>NodeJS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/git_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Malpottor/html_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor//css_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/js_logo.jpg" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/typesc22_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>TypeScript</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Malpottor/mongodb_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/react_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>ReactJS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/nodejs_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>NodeJS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/git_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Malpottor/mongodb_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/react_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>ReactJS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/nodejs_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>NodeJS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Malpottor/git_logo.png" alt="skill icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <img src="./Malpottor/down_arrow.png" alt="down_arrow" class="icon arrow"
+            onclick="location.href='./#projects' " />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Malpottor/Project_1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn"
+                            onclick="location.href='//github.com/Addict2write/Ask-her-out'">Github</button>
+                        <button class="btn btn-color-1 project-btn"
+                            onclick="location.href='//areyoufreetomorrow.netlify.app/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Malpottor/Project_1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn"
+                            onclick="location.href='//github.com/Addict2write/Ask-her-out'">Github</button>
+                        <button class="btn btn-color-1 project-btn"
+                            onclick="location.href='//areyoufreetomorrow.netlify.app/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <img src="./Malpottor/down_arrow.png" alt="down_arrow" class="icon arrow"
+            onclick="location.href='./#contacts' " />
+
+    </section>
+    <section id="contacts">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contacts-info-upper-container">
+            <div class="contacts-info-container">
+                <img src="./Malpottor/2hireme_logo.png" alt="Email icon" class="icon contact-icon"
+                    onclick="location.href='mailto:mdsaikat795@gmail.com' ">
+
+            </div>
+            <div class="contacts-info-container">
+                <img src="./Malpottor/github_logo.png" alt="Github icon" class="icon contact-icon"
+                    onclick="location.href='//github.com/Addict2write/' ">
+
+            </div>
+            <div class="contacts-info-container">
+                <img src="./Malpottor/linkedin_logo.png" alt="LinkedIn icon" class="icon contact-icon"
+                    onclick="location.href='//www.linkedin.com/in/md-rasel-saikat-ul-hoque/' ">
+
+            </div>
+            <div class="contacts-info-container">
+                <img src="./Malpottor/X_logo.png" alt="X icon" class="icon contact-icon"
+                    onclick="location.href='//x.com/Addict2write' ">
+
+
+            </div>
+            <div class="contacts-info-container">
+                <img src="./Malpottor/Insta_logo.png" alt="Instagram icon" class="icon contact-icon"
+                    onclick="location.href='//www.instagram.com/addict2write/' ">
+
+            </div>
+
+            <div class="contacts-info-container">
+                <img src="./Malpottor/cv_logo.png" alt="CV icon" class="icon contact-icon"
+                    onclick="location.href='//drive.google.com/file/d/10ZAKUM0kJxHWhSAG7VCTlFC-_lMpntSl/view?usp=drive_link/' ">
+
+            </div>
+        </div>
+        <img src="./Malpottor/up_arrow.png" alt="up_arrow" class="icon arrow" onclick="location.href='./#projects' " />
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; Rasel Made Wtih &hearts; 2024 </p>
+    </footer>
+    <script src="script.js"></script>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Developer', 'Web Designer', 'Frontend Developer','Software Developer', 'Web Designer', 'Frontend Developer' ],
+      typeSpeed: 100,
+    });
+  </script>
+<!-- Frontend Developer • ,
+Software Developer •
+• Web Designer' -->
+</body>
+
+</html>
